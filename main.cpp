@@ -77,7 +77,7 @@ int main()
         //解密
         cout<<"请输入密文字符串："<<endl;
         cin>>text;
-        cout<<"明文："<<Decryption(text, move)<<endl;
+        cout<<"明文：\n"<<Decryption(text, move)<<endl;
     }
     else{
         cout<<"Something wrong!"<<endl;
